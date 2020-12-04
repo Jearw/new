@@ -10,7 +10,7 @@ body{
     text-shadow: #004a7b 0 0 5px;
     
 
-    background-image: url(/assets/images/intro.jpg);
+    background-image: url(intro.jpg);
     background-size: 100%;
     text-align: center;
     background-color: #001a2b;
