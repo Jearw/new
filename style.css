@@ -1,0 +1,148 @@
+body{
+    display: block;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    
+    
+    font-size: 12px;
+    line-height: 1.6;
+    color:wheat;
+    text-shadow: #004a7b 0 0 5px;
+    
+
+    background-image: url(/assets/images/intro.jpg);
+    background-size: 100%;
+    text-align: center;
+    background-color: #001a2b;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-width: 1080px;
+    
+    
+}
+/*Header*/
+.header{
+    width: 1080px;
+    margin: 10px auto;
+}
+.container{
+    
+    display: block;
+    padding-top: 25%;
+    padding-left: 10%;
+}
+
+.side a{
+    text-decoration: none;
+
+}
+
+
+.side > ul {
+    
+    font-family: 'Russo One', sans-serif;
+    display: flex;
+    padding: 10px 20%;
+    position: absolute;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    justify-self: center;
+}
+.side > ul li a{
+    display: block;
+    padding: 15px 35px 15px 35px;
+    
+}
+.side > ul li a{
+
+    position: relative;
+    border-right: 1px solid  #82b3db;
+}
+.side > ul  li a:first-child {
+
+    border-left: 1px solid #82b3db;
+}
+
+.side > ul  li a:last-child{
+
+    border-right: 1px solid #82b3db;
+}
+
+/*Выпадающее меню*/
+.menu a{
+    background: wheat;
+    padding: 10px;
+    display: block;
+    transition: 0.5s all;
+}
+
+
+.menu a:hover{
+    background: #666;
+}
+
+
+.menu__list{
+    position: relative;
+}
+
+.pod__list{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    border-top: 7px solid  #82b3db;
+
+
+}
+.menu__list:hover .pod__list{
+    opacity: 1;
+    transition: 0.5s opacity;
+}
+
+/*Header*/
+
+/*Content*/
+
+p{
+    font-size: 25px;
+}
+
+.content{
+    display: flex;
+    
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 11%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 1%;
+}
+.inf .inf2 .inf3  {
+    margin: 0 0 20px;
+}
+
+/*Scale*/
+
+.sc
+{
+    display: inline-block;
+    overflow: hidden;
+    transition: 1s; 
+}
+.sc:hover {
+    
+    transform: scale(1.02);
+}
+
+
+
+
+
+
+
+
+
+
