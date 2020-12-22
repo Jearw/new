@@ -136,7 +136,47 @@ p{
     
     transform: scale(1.02);
 }
+/*Table*/
 
+.table1{
+    padding-top: 5%;
+}
+table{
+    display: block;
+    text-align: center;
+    max-width: 40%;
+    
+    
+
+    border-collapse: separate;
+    border-spacing: 2%;
+    border: 5px solid #82b3db;
+    background-color: #001a2b;
+    
+    margin-left: 30%;
+    margin-right: 30%;
+
+    text-shadow: #001a2b 1px 1px 0, #001a2b -1px -1px 0,
+                #001a2b -1px 1px 0, #001a2b 1px -1px 0;
+    color: wheat;
+    
+}
+th{ 
+    width: 10%;
+    color: #064086;
+    text-shadow: #014069 0 0 5px;
+    background-color: wheat;
+    
+}
+td{
+    width: 40%;
+    font-size: 15px;
+    background-color: wheat;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3% ;
+}
 
 
 
